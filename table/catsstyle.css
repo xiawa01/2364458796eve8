@@ -1,0 +1,20 @@
+figure {
+  background-color:red;
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  width: 650px;
+  }
+figcaption {
+  border: 5px;
+  text-shadow: 2px 2px 5px black;
+  font-size:42px;
+}
+p{
+   text-align:left;
+   padding-left: 230px;
+}
+
+# вставка спец-символов
+#https://seo-studio.pro/blog/special-characters-html5-and-css3/
+#https://developer.mozilla.org/ru/docs/Web/HTML/Element/figcaption

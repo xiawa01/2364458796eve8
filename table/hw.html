@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body {
+            background-image: url("фон2.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        /*table {*/
+        /*    border-collapse: collapse;*/
+        /*    border: 2px ;*/
+        /*    !*ширина границ ячеек 2*!*/
+        /*    background-color: dimgray;*/
+        /*    border-spacing: 15px;*/
+        /*    !*расстояние между ячейками 15*!*/
+        /*    padding: 10px;*/
+        /*    !*отступ контента от границ - 10*!*/
+        /*    width: 600px;*/
+        /*    !*ширина таблицы:  600*!*/
+        /*}*/
+        td,th {
+
+            padding: 3px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<table align="center" cellpadding="10" cellspacing="15" width="600" border="2" bgcolor="#696969" style="border-color: red;border-collapse: collapse " >
+<!--<table align="center"  >-->
+    <tr >
+        <!--<td align="left"><figure><img src="preview-1.jpg"  height="50" alt="cat"><figcaption>Котик Барс</figcaption></figure></td><td align="center">weight</td><td align="center">age</td>-->
+        <td align="left" height="100px" ><figure><img src="preview-1.jpg"  height="50" alt="cat"><figcaption>Котик Барс</figcaption></figure></td><td height="100px">empty</td><td height="100px" width="200" background="preview-3.jpg" style="background-repeat: no-repeat; background-size: cover" ></td>
+    </tr>
+    <tr ><td colspan="3" height="20px"></td></tr>
+    <tr>
+        <td height="300" width="400" >hello world</td>
+        <td bgcolor="#adff2f" colspan="2" >hello world</td>
+    </tr>
+    <tr>
+        <td width="50%" >
+            <table  cellpadding="0" border="1" cellspacing="0" width="50%">
+            <tr>
+                <td><img src="11e4aefa0780a6b0ae4b041c85566b8f.jpg" border="20" alt="photo" style="background-repeat: no-repeat"></td><td>empty</td>
+            </tr>
+            <tr><td>empty</td> <td>empty</td></tr>
+            </table>
+        </td>
+        <td colspan="2" align="right" width="50%" ><img src="11e4aefa0780a6b0ae4b041c85566b8f.jpg" border="15" alt="photo"></td>
+    </tr>
+</table>
+</body>
+</html>
+<!--td - ячейка - table data
+th - header
+tr - row-->
