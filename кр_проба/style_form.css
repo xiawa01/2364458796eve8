@@ -1,0 +1,54 @@
+body {
+
+   display: flex;
+   justify-content: center; /* Центрируем по горизонтали */
+   align-items: center; /* Центрируем по вертикали */
+   background-color: #CAF7E2;
+}
+
+fieldset.one{
+   color: #4A442D;
+   border: 2px solid #3D3522;
+   text-align: center;
+   border-top-left-radius: 60px;
+   border-top-right-radius: 60px;
+   border-bottom-left-radius: 60px;
+   border-bottom-right-radius: 60px;
+   margin-top: 20px;
+   margin-right: 500px;
+   margin-left: 500px;
+   line-height:25px;
+
+}
+fieldset.two{
+   color: #4A442D;
+   border: 2px solid #3D3522;
+   text-align: center;
+   border-top-left-radius: 60px;
+   border-top-right-radius: 60px;
+   border-bottom-left-radius: 60px;
+   border-bottom-right-radius: 60px;
+   margin-right: 500px;
+   margin-left: 500px;
+}
+
+button {
+  display: inline-block; /* делаем блочно-строчный элемент */
+}
+
+/* Стили для самой кнопки */
+.button input[type="button"] {
+  color: #fff;
+  font-size: 18px;
+  background: #3e2093;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  transition: 0.2s; /* чтобы плавно менялся цвет при наведении (:hover) */
+}
+
+/* Меняем цвет фона при наведении на кнопку */
+.button input[type="button"]:hover {
+  background: rgb(0, 0, 207);
+}
