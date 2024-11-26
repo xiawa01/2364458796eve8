@@ -1,0 +1,94 @@
+[
+  {
+
+    "id": 1,
+    "title":"book 1",
+    "url":"1.jpg",
+    "vendor_code": "111",
+    "description": "введение в востоковедение",
+    "price": 5000
+  },
+  {
+
+    "id": 2,
+    "title":"book 2",
+    "url":"2.jpg",
+    "vendor_code": "112",
+    "description": "концепции современного востоковедения",
+    "price": 5000
+  },
+  {
+
+    "id": 3,
+    "title":"book 3",
+    "url":"3.jpg",
+    "vendor_code": "113",
+    "description": "Учебник по китайскому языку",
+    "price": 1000
+  },
+  {
+
+    "id": 4,
+    "title":"book 4",
+    "url":"4.jpg",
+    "vendor_code": "114",
+    "description": "Учебник по корейскому языку",
+    "price": 1000
+  },
+  {
+
+    "id": 5,
+    "title":"book 5",
+    "url":"5.jpg",
+    "vendor_code": "115",
+    "description": "Ориентализм",
+    "price": 2000
+  },
+  {
+
+    "id": 6,
+    "title":"book 6",
+    "url":"6.jpg",
+    "vendor_code": "116",
+    "description": "Учебник по японскому языку",
+    "price": 1000
+  },
+   {
+
+    "id": 7,
+    "title":"book 7",
+    "url":"7.jpg",
+    "vendor_code": "117",
+    "description": "Учебник по английскому языку",
+    "price": 5000
+  },
+  {
+
+    "id": 8,
+    "title":"book 8",
+    "url":"8.jpg",
+    "vendor_code": "118",
+    "description": "Учебник по испанскому языку",
+    "price": 5000
+  },
+  {
+
+    "id": 9,
+    "title":"book 9",
+    "url":"9.jpg",
+    "vendor_code": "119",
+    "description": "Учебник по китайскому языку",
+    "price": 1000
+  },
+  {
+
+    "id": 10,
+    "title":"book 10",
+    "url":"10.jpg",
+    "vendor_code": "1110  ",
+    "description": "Учебник по китайскому языку",
+    "price": 1000
+  }
+]
+
+

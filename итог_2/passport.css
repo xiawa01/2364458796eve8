@@ -1,0 +1,50 @@
+ /*article {
+            background-image: url(passpotr_shablon.png);
+            background-position:left top;
+            background-repeat: no-repeat;
+ }*/
+.block1 {
+   margin-top: 52px;
+   margin-left: 90px;
+
+        }
+        .block2 {
+            margin-top: 0px;
+            margin-left: 90px;
+            margin-bottom: 5px;
+
+        }
+        .block3 {
+            margin-top: 19px;
+            margin-left: 255px;
+
+        }
+        .block4 {
+            margin-top: 131px;
+            margin-left: 245px;
+
+        }
+        .block5 {
+            margin-top: 25px;
+            margin-left: 245px;
+
+        }
+        .block6 {
+            margin-top: 0px;
+            margin-left: 245px;
+
+        }
+        .block7 {
+            margin-top: 0px;
+            margin-left: 180px;
+
+        }
+        .pic {
+            margin-top: -70px;
+            margin-left: 39px;
+        }
+        .block8 {
+            margin-top: -55px;
+            margin-left: 250px;
+
+        }

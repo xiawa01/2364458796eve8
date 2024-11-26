@@ -1,0 +1,21 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+
+
+}
+td,th{
+    text-align: center;
+    padding: 5px;
+    border: 3px solid black;
+
+}
+thead th {
+    font-size: 1.5rem; /* Увеличенный размер шрифта */
+    font-weight: bold; /* Жирный текст для акцента */
+    border-bottom: 2px solid black; /* Нижняя граница для разделения */
+    padding: 10px; /* Добавление отступов */
+    text-align: center; /* Центрирование текста */
+}
+
