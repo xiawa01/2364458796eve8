@@ -25,7 +25,7 @@ async function getResponce() {
         <h5 class="card-title">${content[key].title}</h5>
         <p class="card-text">${content[key].description}. <br> Цена ${content[key].price} р.</p>
         <input type="hidden" name= "vendor_code" value=${content[key].vendor_code}>
-        <p class="card-text" >Заказать <input class="w-25" type="number" name="amount_${content[key].id}" value="0" min="1" ></p>
+        <p class="card-text" >Заказать <input class="w-25" type="number" name="amount_${content[key].id}" value="0" min="0" ></p>
         </li>
                 `
     }
