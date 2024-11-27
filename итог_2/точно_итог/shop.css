@@ -1,0 +1,17 @@
+#node_for_insert {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет перенос элементов на новую строку */
+    justify-content: space-between; /* Разделяет элементы равномерно */
+    padding: 0;
+    list-style: none;
+}
+
+/*li {
+    display: flex;
+    flex-direction: column; /* Располагает содержимое карточки вертикально */
+    /*justify-content: space-between; /* Выравнивает содержимое карточки */
+    /*align-items: center;
+    margin: 10px;
+    box-sizing: border-box;
+}
+*/

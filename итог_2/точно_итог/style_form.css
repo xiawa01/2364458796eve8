@@ -1,0 +1,67 @@
+body {
+
+   display: flex;
+   justify-content: center; /* Центрируем по горизонтали */
+   align-items: center; /* Центрируем по вертикали */
+   background-color: #CAF7E2;
+}
+
+fieldset.one{
+   color: #4A442D;
+   border: 2px solid #3D3522;
+   text-align: center;
+   border-top-left-radius: 60px;
+   border-top-right-radius: 60px;
+   border-bottom-left-radius: 60px;
+   border-bottom-right-radius: 60px;
+   margin-top: 20px;
+   margin-right: 50px;
+   margin-left: 50px;
+   margin-bottom: 25px;
+   line-height:25px;
+
+}
+fieldset.two{
+   color: #4A442D;
+   border: 2px solid #3D3522;
+   text-align: center;
+   border-top-left-radius: 60px;
+   border-top-right-radius: 60px;
+   border-bottom-left-radius: 60px;
+   border-bottom-right-radius: 60px;
+   margin-right: 50px;
+   margin-left: 50px;
+}
+
+button {
+  display: inline-block; /* делаем блочно-строчный элемент */
+}
+
+/* Стили для самой кнопки */
+.button input[type="button"] {
+
+  font-size: 18px;
+
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"],
+form textarea {
+    width: 50%; /* Растягивается на ширину родителя */
+    max-width: 500px; /* Ограничение ширины */
+    margin: 0 auto 1rem auto; /* Центрирование и отступ снизу */
+    display: block;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+

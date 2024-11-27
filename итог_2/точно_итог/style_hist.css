@@ -1,0 +1,6 @@
+inner-container {
+    border: 0px solid #ccc; /* Рамка для контейнера */
+    background-color: #e2e2e2; /* Фоновый цвет для всей страницы */
+    border-radius: 10px; /* Скругление углов */
+    margin-left: 10px;
+}
